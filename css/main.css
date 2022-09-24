@@ -324,13 +324,11 @@ font-family: 'Hiragino Sans GB', sans-serif;
 }
 
 .data{
-            /*注意：此处使用width无效*/
             display: flex;
         }
 .data>div{
             box-sizing: border-box;
-            /* 如果 div高度不一样，让div顶部对齐使用vertical-align*/
-            /*vertical-align: top;*/
+
 }
 .data_left{
             width:300px;
