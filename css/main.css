@@ -327,18 +327,38 @@ font-family: 'Hiragino Sans GB', sans-serif;
             /*注意：此处使用width无效*/
             display: flex;
         }
-        .data>div{
+.data>div{
             box-sizing: border-box;
             /* 如果 div高度不一样，让div顶部对齐使用vertical-align*/
             /*vertical-align: top;*/
-        }
-        .data_left{
+}
+.data_left{
             width:300px;
             background-color: #E6A23C;
-        }
-        .data_middle{
+}
+.data_middle{
             flex: 1;
             background-color: #909399;
-        }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+    z-index: 1
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color: #f9f9f9;*/
+  background-color: rgb(255,250,240);
+  min-width: 600px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+    position: relative;
+     z-index: 2
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
