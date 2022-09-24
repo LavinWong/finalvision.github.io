@@ -224,8 +224,8 @@ font-family: 'Hiragino Sans GB', sans-serif;
 }
 
 .btn-primary.arxiv{
-  background: #dc3545;
-  border-color: #dc3545;
+  background: #FF9933;
+  border-color: #FF9933;
 }
 
 .btn-primary.circ{
@@ -238,10 +238,11 @@ font-family: 'Hiragino Sans GB', sans-serif;
   border-color: #343a40;
 }
 
-
+/*4633FF*/
+/*CA33FF*/
 .btn-outline-primary.arxiv{
-  border-color: #dc3545;
-  color: #dc3545;
+  border-color: #FF9933;
+  color: #FF9933;
 }
 
 .btn-outline-primary.circ{
@@ -324,11 +325,13 @@ font-family: 'Hiragino Sans GB', sans-serif;
 }
 
 .data{
+            /*注意：此处使用width无效*/
             display: flex;
         }
 .data>div{
             box-sizing: border-box;
-
+            /* 如果 div高度不一样，让div顶部对齐使用vertical-align*/
+            /*vertical-align: top;*/
 }
 .data_left{
             width:300px;
