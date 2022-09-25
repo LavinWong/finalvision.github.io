@@ -458,14 +458,14 @@ top: 10px;
     width: 20%;
     min-width: 20%; /* 加入这两个后每个item的宽度就生效了*/
     max-width: 20%; /* 加入这两个后每个item的宽度就生效了*/
-    height: 300px;
+    height: 200px;
   }
 .box_item2{ /
     flex: 1;
     width: 30%;
     min-width: 30%; /* 加入这两个后每个item的宽度就生效了*/
     max-width: 30%; /* 加入这两个后每个item的宽度就生效了*/
-    height: 300px;
+    height: 200px;
   }
 
 
