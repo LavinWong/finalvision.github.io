@@ -23,6 +23,7 @@ a:link, a:visited {
 /* define navbar appearance */
 .navbar{
   background:white;
+  height: 90px;
   /*  background-color:rgba(0,0,0,0.5);*/
 }
 
