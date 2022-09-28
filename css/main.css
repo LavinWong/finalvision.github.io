@@ -23,12 +23,11 @@ a:link, a:visited {
 /* define navbar appearance */
 .navbar{
   background:white;
-  height: 90px;
   /*  background-color:rgba(0,0,0,0.5);*/
 }
 
 .navbar .navbar-collapse{
-  margin:0px 5%;
+  margin:0px 7%;
 }
 
 .navbar .namegif{
