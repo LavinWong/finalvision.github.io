@@ -22,17 +22,16 @@ a:link, a:visited {
 
 /* define navbar appearance */
 .navbar{
-  /*background:white;*/
-    background-color:rgba(255,255,255,1);
-    height: 100px;
+  background:white;
+  /*  background-color:rgba(0,0,0,0.5);*/
 }
 
 .navbar .navbar-collapse{
-  margin:0px 5%;
+  margin:0px 7%;
 }
 
 .navbar .namegif{
-  margin:0px 0% 0px 5%;
+  margin:0px 0% 0px 100px;
 }
 
 .nav-link,.navbar-brand{
@@ -468,81 +467,6 @@ top: 10px;
     max-width: 30%; /* 加入这两个后每个item的宽度就生效了*/
     height: 200px;
   }
-.box_item3{ /
-    flex: 1;
-    width: 50%;
-    min-width: 50%; /* 加入这两个后每个item的宽度就生效了*/
-    max-width: 50%; /* 加入这两个后每个item的宽度就生效了*/
-    height: 200px;
-  }
-.box_item4{ /
-    flex: 1;
-    width: 50%;
-    min-width: 50%; /* 加入这两个后每个item的宽度就生效了*/
-    max-width: 50%; /* 加入这两个后每个item的宽度就生效了*/
-    height: 200px;
-  }
-.box_item3 table{
-
-}
-.box_item3 table td, table th {
-    valign: "top";
-
-}
-.custom-navbar {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 99;
-    padding: 10px 0;
-    background: transparent;
-    transition: all 0.4s ease;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-}
-
-.custom-navbar.top-nav-collapse{
-    background: rgba(255,255,255, 1);
-}
-
-.logo a{
-    display: inline-block;
-    font-size: 18px;
-    color: #fff;
-    font-weight: 700;
-    margin-top: -10px;
-    text-align: center;
-    letter-spacing: 4px;
-}
-.logo a:focus {
-    text-decoration: none;
-}
-
-.main-menu{
-    text-transform: uppercase;
-}
-.main-menu ul.navbar-nav{
-    float: right;
-}
-.main-menu ul.navbar-nav li.active a{
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-.main-menu ul.navbar-nav li a{
-    color: #fff;
-    font-weight: 700;
-    -webkit-transition: all 0.5s ease-in-out 0s;
-    transition: all 0.5s ease-in-out 0s;
-    font-size: 13px;
-    letter-spacing: 1px;
-}
-.main-menu ul.navbar-nav li a:focus {
-    background: none;
-    outline: none;
-}
-.main-menu ul li:hover a{
-    background: none;
-}
 
 
 
