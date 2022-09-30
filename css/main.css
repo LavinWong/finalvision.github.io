@@ -296,7 +296,7 @@ font-family: 'Hiragino Sans GB', sans-serif;
 .flex-container{
   margin:30px 10%;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .flex-container .footer_link{
