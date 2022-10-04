@@ -481,7 +481,28 @@ top: 10px;
     max-width: 50%; /* 加入这两个后每个item的宽度就生效了*/
     height: 200px;
   }
+.red {
+    color: red;
+}
 
+.colorful {
+    background-image: -webkit-linear-gradient(left, #F30306, #FDDF02 25%, #F30306 50%, #FDDF02 75%, #F30306);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    -webkit-animation: maskedAnimation 4s infinite linear;
+    font-size: 18px;
+}
+
+
+@keyframes maskedAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
 
 
 
