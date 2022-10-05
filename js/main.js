@@ -4,7 +4,7 @@
 //
 $(".navbar a").click(function(){
   $("body,html").animate({
-   scrollTop:$("#" + $(this).data('value')).offset().top-100
+   scrollTop:$("#" + $(this).data('value')).offset().top-0
   },1000)
  })
 
