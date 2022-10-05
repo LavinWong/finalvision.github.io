@@ -593,6 +593,9 @@ top: 10px;
 .yellow_color_theme .about a.theme-color{
     color: #ffd505;
 }
+.yellow_color_theme .div-container a.theme-color{
+    color: #ffd505;
+}
 /*======= end yellow =========*/
 
 /*=========== red ===========*/
@@ -626,6 +629,9 @@ top: 10px;
      background: #DC143C;
 }
 .red_color_theme .about a.theme-color{
+    color: #DC143C;
+}
+.red_color_theme .div-container a.theme-color{
     color: #DC143C;
 }
 /*=========== end red ===========*/
@@ -664,6 +670,9 @@ top: 10px;
 .green_color_theme .about a.theme-color{
     color: #44b272;
 }
+.green_color_theme .div-container a.theme-color{
+    color: #44b272;
+}
 /*=========== end green ===========*/
 
 /*=========== pink ===========*/
@@ -697,6 +706,9 @@ top: 10px;
      background: #D2527F;
 }
 .pink_color_theme .about a.theme-color{
+    color: #D2527F;
+}
+.pink_color_theme .div-container a.theme-color{
     color: #D2527F;
 }
 /*=========== end pink ===========*/
@@ -735,6 +747,9 @@ top: 10px;
 .purple_color_theme .about a.theme-color{
     color: #663399;
 }
+.purple_color_theme .div-container a.theme-color{
+    color: #663399;
+}
 
 /*=========== end purple ===========*/
 
@@ -770,6 +785,9 @@ top: 10px;
      background: #4183D7;
 }
 .blue_color_theme .about a.theme-color{
+    color: #4183D7;
+}
+.blue_color_theme .div-container a.theme-color{
     color: #4183D7;
 }
 /*=========== end red ===========*/
