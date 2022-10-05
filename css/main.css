@@ -325,13 +325,12 @@ font-family: 'Hiragino Sans GB', sans-serif;
 }
 
 .data{
-            /*注意：此处使用width无效*/
+            
             display: flex;
         }
 .data>div{
             box-sizing: border-box;
-            /* 如果 div高度不一样，让div顶部对齐使用vertical-align*/
-            /*vertical-align: top;*/
+            
 }
 .data_left{
             width:300px;
@@ -407,7 +406,6 @@ height: 300px;
 
 position: absolute;
 
-/* 边距设置 */
 
 right: 50%;
 
@@ -423,7 +421,6 @@ height: 300px;
 /*border: 2px solid red;*/
 position: absolute;
 
-/* 边距设置 */
 
 right: 25%;
 
@@ -439,7 +436,6 @@ height: 300px;
 /*border: 2px solid red;*/
 position: absolute;
 
-/* 边距设置 */
 
 right: 0%;
 
@@ -456,22 +452,22 @@ top: 10px;
 .box_item1{ /
     flex: 1;
     width: 20%;
-    min-width: 20%; /* 加入这两个后每个item的宽度就生效了*/
-    max-width: 20%; /* 加入这两个后每个item的宽度就生效了*/
+    min-width: 20%; 
+    max-width: 20%; 
     height: 200px;
   }
 .box_item2{ /
     flex: 1;
     width: 30%;
-    min-width: 30%; /* 加入这两个后每个item的宽度就生效了*/
-    max-width: 30%; /* 加入这两个后每个item的宽度就生效了*/
+    min-width: 30%; 
+    max-width: 30%; 
     height: 200px;
   }
 .box_item3{ /
     flex: 1;
     width: 50%;
-    min-width: 50%; /* 加入这两个后每个item的宽度就生效了*/
-    max-width: 50%; /* 加入这两个后每个item的宽度就生效了*/
+    min-width: 50%; 
+    max-width: 50%; 
     height: 200px;
   }
 .box_item4{ /
@@ -522,7 +518,7 @@ top: 10px;
 .spiner_button{
     height: 50px;
     width: 50px;
-    background: #44b272;
+    background: #4183D7;
     position: absolute;
     display: block;
     right: 180px;
