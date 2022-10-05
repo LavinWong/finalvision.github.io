@@ -170,18 +170,18 @@ jQuery(document).ready(function($) {
         /*=============================
                 Sticky header
         ==============================*/
-        $('.navbar-collapse a').on('click',function(){
-          $(".navbar-collapse").collapse('hide');
-        });
+//         $('.navbar-collapse a').on('click',function(){
+//           $(".navbar-collapse").collapse('hide');
+//         });
 
-        $window.on('scroll', function() {
-          if ($(".navbar").offset().top > -1) {
-            $(".custom-navbar").addClass("top-nav-collapse");
-              } else {
-                // $(".custom-navbar").removeClass("top-nav-collapse");
-              $(".custom-navbar").addClass("top-nav-collapse");
-              }
-        });
+//         $window.on('scroll', function() {
+//           if ($(".navbar").offset().top > -1) {
+//             $(".custom-navbar").addClass("top-nav-collapse");
+//               } else {
+//                 // $(".custom-navbar").removeClass("top-nav-collapse");
+//               $(".custom-navbar").addClass("top-nav-collapse");
+//               }
+//         });
 
         // $(function(){
         //     if ($(".navbar").offset().top > -1) {
