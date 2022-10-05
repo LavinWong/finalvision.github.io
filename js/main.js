@@ -156,9 +156,9 @@ jQuery(document).ready(function($) {
     	$(".spiner_button").on("click", function(event){
             event.preventDefault();
             if ( $(this).hasClass("slide_in_out") ) {
-            $(".demo_panel_box").stop().animate({left:"-180px"}, 500);
+            $(".demo_panel_box").stop().animate({right:"0px"}, 500);
             } else {
-            $(".demo_panel_box").stop().animate({left:"0px"}, 500);
+            $(".demo_panel_box").stop().animate({right:"-180px"}, 500);
             }
             $(this).toggleClass("slide_in_out");
             return false;
