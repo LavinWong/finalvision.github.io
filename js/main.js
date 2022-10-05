@@ -12,8 +12,8 @@ jQuery(window).on('load', function() {
 	"use strict";
 
 
-    // HIDE PRELOADER
-    $(".preloader").addClass("hide-preloader");
+//     // HIDE PRELOADER
+//     $(".preloader").addClass("hide-preloader");
 
     // SHOW/ANIMATE ANIMATION CONTAINER
     setTimeout(function(){
