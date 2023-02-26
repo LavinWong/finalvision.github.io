@@ -4,7 +4,7 @@
 //
 $(".navbar a").click(function(){
   $("body,html").animate({
-   scrollTop:$("#" + $(this).data('value')).offset().top-0
+   scrollTop:$("#" + $(this).data('value')).offset().top-100
   },1000)
  })
 
@@ -12,8 +12,8 @@ jQuery(window).on('load', function() {
 	"use strict";
 
 
-//     // HIDE PRELOADER
-//     $(".preloader").addClass("hide-preloader");
+    // HIDE PRELOADER
+    $(".preloader").addClass("hide-preloader");
 
     // SHOW/ANIMATE ANIMATION CONTAINER
     setTimeout(function(){
@@ -153,14 +153,91 @@ jQuery(document).ready(function($) {
             $("body").addClass("purple_color_theme").removeClass("green_color_theme red_color_theme yellow_color_theme blue_color_theme pink_color_theme");
         });
 
-    	$(".spiner_button").on("click", function(event){
+    	$(".spiner_button").mouseenter(function(event){
             event.preventDefault();
             if ( $(this).hasClass("slide_in_out") ) {
             $(".demo_panel_box").stop().animate({right:"0px"}, 500);
-            } else {
+            }
+            $(this).toggleClass("slide_in_out");
+            return false;
+        });
+        $(".demo_panel_box").mouseleave(function(event){
+            event.preventDefault();
+            if ( $(this).hasClass("slide_in_out") ) {
             $(".demo_panel_box").stop().animate({right:"-180px"}, 500);
             }
             $(this).toggleClass("slide_in_out");
+            return false;
+        });
+        $(".spiner_button").on("touchstart", function(event){
+            event.preventDefault();
+            if ( $(this).hasClass("phone") ) {
+            $(".demo_panel_box").stop().animate({right:"0px"}, 500);
+            }
+            $(this).toggleClass("phone");
+            return false;
+        });
+
+        // $(".demo_panel_box").on("touchend", function(event){
+        //     event.preventDefault();
+        //     if ( $(this).hasClass("slide_in_out") ) {
+        //     $(".demo_panel_box").stop().animate({right:"-180px"}, 500);
+        //     }
+        //     $(this).toggleClass("slide_in_out");
+        //     return false;
+        // });
+        $("span.red_color").on("touchend", function(event){
+            $("body").addClass("red_color_theme").removeClass("green_color_theme yellow_color_theme blue_color_theme pink_color_theme purple_color_theme");
+            event.preventDefault();
+            if ( !$(this).hasClass("phone") ) {
+            $(".demo_panel_box").stop().animate({right:"-180px"}, 500);
+            }
+            $(this).toggleClass("phone");
+            return false;
+        });
+        $("span.green_color").on("touchend", function(event){
+            $("body").addClass("green_color_theme").removeClass("red_color_theme yellow_color_theme blue_color_theme pink_color_theme purple_color_theme");
+            event.preventDefault();
+            if ( !$(this).hasClass("phone") ) {
+            $(".demo_panel_box").stop().animate({right:"-180px"}, 500);
+            }
+            $(this).toggleClass("phone");
+            return false;
+        });
+    $("span.yellow_color").on("touchend", function(event){
+            $("body").addClass("yellow_color_theme").removeClass("green_color_theme red_color_theme blue_color_theme pink_color_theme purple_color_theme");
+            event.preventDefault();
+            if ( !$(this).hasClass("phone") ) {
+            $(".demo_panel_box").stop().animate({right:"-180px"}, 500);
+            }
+            $(this).toggleClass("phone");
+            return false;
+        });
+    $("span.blue_color").on("touchend", function(event){
+            $("body").addClass("blue_color_theme").removeClass("yellow_color_theme green_color_theme red_color_theme pink_color_theme purple_color_theme");
+            event.preventDefault();
+            if ( !$(this).hasClass("phone") ) {
+            $(".demo_panel_box").stop().animate({right:"-180px"}, 500);
+            }
+            $(this).toggleClass("phone");
+            return false;
+        });
+    $("span.pink_color").on("touchend", function(event){
+            $("body").addClass("pink_color_theme").removeClass("green_color_theme red_color_theme yellow_color_theme purple_color_theme blue_color_theme");
+            event.preventDefault();
+            if ( !$(this).hasClass("phone") ) {
+            $(".demo_panel_box").stop().animate({right:"-180px"}, 500);
+            }
+            $(this).toggleClass("phone");
+            return false;
+        });
+    $("span.purple_color").on("touchend", function(event){
+            $("body").addClass("purple_color_theme").removeClass("green_color_theme red_color_theme yellow_color_theme blue_color_theme pink_color_theme");
+            event.preventDefault();
+            if ( !$(this).hasClass("slide_in_out") ) {
+            $(".demo_panel_box").stop().animate({right:"-180px"}, 500);
+            }
+            $(this).toggleClass("phone");
             return false;
         });
 
@@ -170,18 +247,18 @@ jQuery(document).ready(function($) {
         /*=============================
                 Sticky header
         ==============================*/
-//         $('.navbar-collapse a').on('click',function(){
-//           $(".navbar-collapse").collapse('hide');
-//         });
+        $('.navbar-collapse a').on('click',function(){
+          $(".navbar-collapse").collapse('hide');
+        });
 
-//         $window.on('scroll', function() {
-//           if ($(".navbar").offset().top > -1) {
-//             $(".custom-navbar").addClass("top-nav-collapse");
-//               } else {
-//                 // $(".custom-navbar").removeClass("top-nav-collapse");
-//               $(".custom-navbar").addClass("top-nav-collapse");
-//               }
-//         });
+        $window.on('scroll', function() {
+          if ($(".navbar").offset().top > -1) {
+            $(".custom-navbar").addClass("top-nav-collapse");
+              } else {
+                // $(".custom-navbar").removeClass("top-nav-collapse");
+              $(".custom-navbar").addClass("top-nav-collapse");
+              }
+        });
 
         // $(function(){
         //     if ($(".navbar").offset().top > -1) {

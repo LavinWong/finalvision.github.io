@@ -17,7 +17,7 @@ NOTE: This is the custom jQuery file for the template
     
     var $body = $("body"),
         $window = $(window);
-    
+        $("body").addClass("blue_color_theme")
     
     
      /*=======================================
